@@ -1,0 +1,34 @@
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+#quilt {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.quilt-square {
+  height: 100px;
+  width: 100px;
+}
+
+.quilt-square:hover {
+  cursor: pointer;
+  filter: brightness(0.6);
+}
+
+@media only screen and (min-width: 600px) {
+  #quilt {
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #quilt {
+    width: 1200px;
+  }
+}
+
